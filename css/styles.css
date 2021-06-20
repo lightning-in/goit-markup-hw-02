@@ -5,7 +5,7 @@ body {
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
 }
-/* -- header -- */
+/* -- header page 1-- */
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -157,3 +157,49 @@ body {
 .contacts:focus {
   color: #2196f3;
 }
+
+/* end page-1*/
+
+/* page-2 */
+
+/* main */
+/* menu */
+
+.button-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+/* end menu */
+
+/* portfolio */
+.portfolio {
+  text-decoration: none;
+  list-style: none;
+}
+
+.port .name-portfolio-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.work-definition {
+  font-weight: 40;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* end portfolio */
