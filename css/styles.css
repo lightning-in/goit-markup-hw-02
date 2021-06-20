@@ -125,6 +125,9 @@ body {
 }
 
 /* Наша команда */
+.comande {
+  background-color: #f5f4fa;
+}
 .name-title {
   font-weight: 500;
   font-size: 16px;
@@ -145,6 +148,13 @@ body {
 /* end main */
 
 /* footer */
+.footer {
+  background-color: #000000;
+}
+.white-Studio {
+  color: #ffffff;
+}
+
 .contacts {
   font-weight: 400;
   font-size: 14px;
