@@ -1,11 +1,14 @@
 :root {
-  --main-font: "Roboto", sans-serif;
 }
 
+body {
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+}
+/* -- header -- */
 .logo {
   font-family: Raleway, sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   /* identical to box height */
@@ -13,6 +16,7 @@
   color: black;
   text-decoration: none;
 }
+
 .logo:hover,
 .logo:focus {
   color: #2196f3;
@@ -22,9 +26,7 @@
   color: #2196f3;
 }
 
-.menu-item {
-  font-family: var(--main-font);
-  font-style: normal;
+.menu {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -33,7 +35,120 @@
   list-style: none;
   color: black;
 }
+
 .menu:hover,
 .menu:focus {
+  color: #2196f3;
+}
+
+.contacts-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.23;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  list-style: none;
+}
+
+.mail-link,
+.tel-link {
+  color: #757575;
+}
+
+.mail-link:hover,
+.mail-link:focus,
+.tel-link:hover,
+.tel-link:focus {
+  color: #2196f3;
+}
+/* -- end header -- */
+
+/* main */
+/* hero */
+.hero-one {
+  background-color: #000;
+}
+.hero-title {
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.button-hero {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #2196f3;
+}
+
+/* end hero */
+
+/* benefits */
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.description {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* end benefits */
+
+/* Чем мы занимаемся */
+.two-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* Наша команда */
+.name-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.26;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.work-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.contacts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.contacts:hover,
+.contacts:focus {
   color: #2196f3;
 }
