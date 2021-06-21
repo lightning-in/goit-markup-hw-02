@@ -5,6 +5,7 @@
 body {
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
+  color: #757575;
 }
 /* -- header page 1-- */
 .logo {
@@ -117,7 +118,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
 }
 /* end benefits */
 
