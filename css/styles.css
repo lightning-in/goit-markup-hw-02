@@ -1,4 +1,5 @@
 :root {
+  --color-header: #2196f3;
 }
 
 body {
@@ -31,14 +32,17 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
   list-style: none;
   color: black;
 }
 
-.menu:hover,
-.menu:focus {
-  color: #2196f3;
+.menu-studio {
+  text-decoration: none;
+}
+.menu-studiou:hover,
+.menu-studio:focus,
+.menu-studio:active {
+  color: var(--color-header);
 }
 
 .contacts-list {
@@ -46,20 +50,20 @@ body {
   font-size: 14px;
   line-height: 1.23;
   letter-spacing: 0.02em;
-  text-decoration: none;
   list-style: none;
 }
 
 .mail-link,
 .tel-link {
   color: #757575;
+  text-decoration: none;
 }
 
 .mail-link:hover,
 .mail-link:focus,
 .tel-link:hover,
 .tel-link:focus {
-  color: #2196f3;
+  color: var(--color-header);
 }
 /* -- end header -- */
 
@@ -69,7 +73,6 @@ body {
   background-color: #000;
 }
 .hero-title {
-  font-family: Roboto, sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -95,6 +98,10 @@ body {
 /* end hero */
 
 /* benefits */
+
+.benefits-list {
+  list-style: none;
+}
 .benefits-title {
   font-weight: 700;
   font-size: 14px;
@@ -115,6 +122,10 @@ body {
 /* end benefits */
 
 /* Чем мы занимаемся */
+.When-gob {
+  list-style: none;
+}
+
 .two-title {
   font-weight: 700;
   font-size: 36px;
@@ -128,6 +139,10 @@ body {
 .comande {
   background-color: #f5f4fa;
 }
+.comande-img {
+  list-style: none;
+}
+
 .name-title {
   font-weight: 500;
   font-size: 16px;
@@ -156,6 +171,11 @@ body {
 }
 
 .contacts {
+  list-style: none;
+}
+.target,
+.mail-contacts,
+.tel-contacts {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.8;
@@ -163,9 +183,16 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.contacts:hover,
-.contacts:focus {
-  color: #2196f3;
+.target:hover,
+.target:focus,
+.target:active,
+.mail-contactst:hover,
+.mail-contacts:focus,
+.mail-contacts:active,
+.tel-contacts:hover,
+.tel-contacts:focus,
+.tel-contactst:active {
+  color: #ffffff;
 }
 
 /* end page-1*/
@@ -206,7 +233,7 @@ body {
 }
 
 .work-definition {
-  font-weight: 40;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
