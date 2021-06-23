@@ -34,11 +34,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   list-style: none;
-  color: black;
 }
 
 .menu-studio {
   text-decoration: none;
+  color: black;
 }
 .menu-studiou:hover,
 .menu-studio:focus,
@@ -175,6 +175,7 @@ body {
 .target,
 .mail-contacts,
 .tel-contacts {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.8;
@@ -201,7 +202,9 @@ body {
 
 /* main */
 /* menu */
-
+.menu-portfolio {
+  list-style: none;
+}
 .button-portfolio {
   font-weight: 500;
   font-size: 16px;
@@ -225,7 +228,7 @@ body {
 .img-portfolio {
   text-decoration: none;
 }
-.port .name-portfolio-link {
+.name-portfolio-link {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
