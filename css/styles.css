@@ -1,14 +1,34 @@
 :root {
+  /* color */
   --body-background-color: #ffffff;
   --body-color: #757575;
   --color-header: #2196f3;
   --logo: #000000;
   --web-logo: #2196f3;
-  /* --color-logo (hover,focus) */
+  /* color-logo (hover,focus) */
   --color-logo: #2196f3;
-  --menu-studio:#000000;
+  /* end-logo-color */
+  --menu-studio: #000000;
   --hero-one: #757575;
   --hero-one-background-color: #2f303a;
+  --hero-title: #ffffff;
+  --button-hero: #ffffff;
+  --button-hero-background-color: #2196f3;
+  --benefits-title: #212121;
+  --two-title: #212121;
+  --comande-background-color: #f5f4fa;
+  --name-title: #212121;
+  --work-title: #757575;
+  --footer-background-color: #000000;
+  --white-Studio: #ffffff;
+  --contacts-list: rgba(255, 255, 255, 0.6);
+  --contacts-list-hfa: #ffffff;
+  --button-portfolio: #212121;
+  --button-portfolio-hf-background: #2196f3;
+  --button-portfolio-hf: #ffffff;
+  --name-portfolio-link: #212121;
+  --work-definition: #757575;
+}
 
 body {
   background-color: var(--body-background-color);
@@ -89,7 +109,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--hero-title);
 }
 
 .button-hero {
@@ -97,9 +117,9 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--button-hero);
   cursor: pointer;
-  background-color: #2196f3;
+  background-color: var(--button-hero-background-color);
 }
 
 /* end hero */
@@ -115,7 +135,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--benefits-title);
 }
 
 .description {
@@ -138,12 +158,12 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--two-title);
 }
 
 /* Наша команда */
 .comande {
-  background-color: #f5f4fa;
+  background-color: var(--comande-background-color);
 }
 .comande-img {
   list-style: none;
@@ -155,7 +175,7 @@ body {
   line-height: 1.26;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #212121;
+  color: var(--name-title);
 }
 
 .work-title {
@@ -164,16 +184,16 @@ body {
   line-height: 19px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #757575;
+  color: var(--work-title);
 }
 /* end main */
 
 /* footer */
 .footer {
-  background-color: #000000;
+  background-color: var(--footer-background-color);
 }
 .white-Studio {
-  color: #ffffff;
+  color: var(--white-Studio);
 }
 
 .contacts {
@@ -188,7 +208,7 @@ body {
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--contacts-list);
   text-decoration: none;
 }
 
@@ -201,7 +221,7 @@ body {
 .tel-contacts:hover,
 .tel-contacts:focus,
 .tel-contactst:active {
-  color: #ffffff;
+  color: var(--contacts-list-hfa);
 }
 
 /* end page-1*/
@@ -219,13 +239,13 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--button-portfolio);
 }
 
 .button-portfolio:hover,
 .button-portfolio:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--button-portfolio-hf-background);
+  color: var(--button-portfolio-hf);
 }
 /* end menu */
 
@@ -241,7 +261,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--name-portfolio-link);
 }
 
 .work-definition {
@@ -249,6 +269,6 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--work-definition);
 }
 /* end portfolio */
